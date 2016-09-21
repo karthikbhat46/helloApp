@@ -1,0 +1,14 @@
+<div class={{className}}>
+===>{{className}}
+
+  <p>Employee Details</p>
+<table padding="" border="2">
+  <tr ng-repeat="v in emp">
+    <td><img width="50px" height="50px" ng-src="{{v.url}}" /></td>
+    <td>{{v["emp-id"]}}</td>
+    <td>{{v["emp-name"]}}</td>
+    <td>{{v.details}}</td>
+  </tr>
+</table>
+</div>
+<p ng-click="callCallBackFun()">click</p>
